@@ -1,0 +1,11 @@
+{
+  "name": "mercado-liebre",
+  "version": "1.0.0",
+  "description": "Ejercitacion de practica de HTML y CSS para el curso FullStack de Digital House.",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "author": "Nacho Geo",
+  "license": "ISC"
+}
