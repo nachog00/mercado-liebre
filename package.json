@@ -4,8 +4,13 @@
   "description": "Ejercitacion de practica de HTML y CSS para el curso FullStack de Digital House.",
   "main": "app.js",
   "scripts": {
-    "test": "node app.js"
+    "server": "nodemon app.js",
+    "commit": "git add . && git commit && git status"
   },
   "author": "Nacho Geo",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16"
+  }
 }

@@ -1,0 +1,49 @@
+:root{
+    /* colors */
+    --Amarillo: #EAC926;
+    --Azul: #03264C;
+    --Celeste: #1259c3;
+    --Gris-oscuro: #666;
+    --Gris-claro: #ebebeb;
+    --Verde: #39b54a;
+    
+    /* font-family */
+    --font-family-1: 'Roboto', sans-serif;
+
+    /* limites de media query */
+    --tablet:360px;
+    --desktop:769px;
+}
+
+
+
+body {
+    font-family: var(--font-family-1);
+    background-color: var(--Amarillo);
+}
+
+h2 {
+    font-size:24px;
+}
+
+p {
+    font-size:12px;
+}
+
+p.price {
+    font-size:18px;
+}
+
+p.discount {
+    font-size:16px;
+}
+
+#main h3 {
+    font-size:16px;
+}
+
+img {
+    width:100%;
+}
+
+
