@@ -1,9 +1,13 @@
-@media only screen and (min-width: 720px){
+@media only screen and (min-width: 1080px) {
 
     div.products article {
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
 
+
+    div.products article {
+        max-width: 21%;
+    }
 
 
 
