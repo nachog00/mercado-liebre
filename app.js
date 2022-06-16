@@ -7,9 +7,10 @@ const app = express();
 const publicPath = path.join(__dirname, 'public/')
 app.use(express.static(publicPath));
 
-const server = app.listen(1998, () => {
-    console.log("server is running")
-})
+
+const port = process.env.PORT || 1998 ;
+const listenCallback = () => { console.log("server is running") }
+const server = app.listen(port,listenCallback);
 
 
 app.get("/", function (req, res) {
