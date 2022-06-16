@@ -7,11 +7,22 @@
 }
 
 #logo {
-    max-width: 250px;
+/*     max-width: 250px;
     min-width: 150px;
-
-    width: 30vw;
+ */
+    width: 50%;
     margin: 0;
+}
+
+#logo-y-busqueda {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#busqueda {
+    width: 50%;
 }
 
 img.banner {
@@ -19,14 +30,27 @@ img.banner {
 }
 
 fieldset {
-    padding: 0;
     border:none;
-    padding: 0.5rem 0 0.5rem
+    margin-left: 1rem;
+    padding: 0.5rem 0.5rem 0.5rem;
+    display: flex;
+    background-color: white;
+    border-radius: 0.5rem;
+    align-self: center;
+    justify-content: space-between;
 }
 
 input {
     background-color: white;
     width: 90%;
+    border: none;
+    height: 2rem;
+}
+
+.comentario-busqueda {
+    display: block;
+    flex-wrap: wrap;
+
 }
 
 .fa-magnifying-glass {
@@ -40,11 +64,15 @@ input {
 
 #busqueda i{
     display: inline;
+    width: auto;
+    border: none;
+    align-self: center;
 }
 
 .comentario-busqueda {
     font-size: 0.7rem;
     text-align: center;
+    margin: 0.5rem 0 0.5rem;
 }
 
 /* #logo-y-busqueda {
@@ -84,4 +112,13 @@ li {
     display:none;
 }
 
+span {
+    font-size: 1rem;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
 

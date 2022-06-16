@@ -57,7 +57,7 @@ body {
     right: 0;
     padding: 0;
     z-index: 10;
-    /* display:none !important; */
+    display:none !important;
 }
 
 #media-state p {

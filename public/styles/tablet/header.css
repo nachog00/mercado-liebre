@@ -16,7 +16,43 @@
         display: none;
     }
 
+    .busqueda-y-comentario {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    div.comentario-busqueda {
+        margin-left: 5%;
+    }
+
+    #logo-y-busqueda {
+        width: auto;
+        justify-content:unset;
+    }
+
+    #logo {
+        width: 33vw;
+    }
+
+    #busqueda {
+        width: 33vw;
+    }
     
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav ul li {
+        margin: 0 1rem 0;
+    }
+
+    .site , .login-navbar{
+        display: flex;
+    }
+
+
 
 
 }
