@@ -1,0 +1,32 @@
+/*****************************************************************
+BASE CSS
+*****************************************************************/
+
+@import url('stylesheet.css');
+
+
+/*****************************************************************
+MEDIA QUERIES
+*****************************************************************/
+
+/* MOBILE */
+@import url('mobile/header.css');
+@import url('mobile/main.css');
+@import url('mobile/footer.css');
+
+/* TABLET */
+
+@import url('tablet/header.css');
+@import url('tablet/main.css');
+@import url('tablet/footer.css');
+
+
+
+/* DESKTOP */
+@import url('desktop/header.css');
+@import url('desktop/main.css');
+@import url('desktop/footer.css');
+
+
+
+

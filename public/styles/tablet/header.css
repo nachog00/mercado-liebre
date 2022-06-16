@@ -1,0 +1,22 @@
+@media only screen and (min-width: 720px){
+
+    .login-navbar {
+        display: block;
+    }
+
+    .login-navbar li * {
+        display: inline;
+    }
+
+    .site {
+        display: block;
+    }
+
+    #burger-menu {
+        display: none;
+    }
+
+
+
+
+}

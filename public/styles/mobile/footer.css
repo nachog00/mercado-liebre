@@ -1,0 +1,31 @@
+/* FOOTER */
+
+#footer {
+    background-color: white;
+    width: 100%;
+    color: var(--Gris-oscuro);
+/*     margin-top: 2rem; */
+    padding: 0.1rem 0 0;
+}
+
+#footer article {
+    text-align: center;
+    margin: 3em 15% 0;
+}
+
+#footer article h4,p {
+    margin : 0 3px 0;
+}
+
+#footer i {
+    color: var(--Celeste);
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+#footer article.Copyright{
+    margin: 3em 5% 1em;
+    width: 100%;
+    text-align: start;
+    font-size: 0.8rem;
+}

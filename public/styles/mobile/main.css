@@ -1,0 +1,77 @@
+/* MAIN */
+
+#main{
+    width: 100%;
+    justify-self: center;
+    padding: 0 5% 0;
+}
+
+#main div.products {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#main div.products h3 {
+    margin: 0 0 0.5rem;
+}
+
+
+div.products article {
+    background-color: white;
+    width: 100%;
+    min-width: 160px;
+    margin: 0 0 10px; /* separacion entre productos */
+
+   /*  box-shadow: 0px 0px 10px rgb(100, 100, 100);  */
+
+    border-radius: 0 0 1% 1%;
+    
+}
+
+#main div.data {
+    border-top: solid var(--Gris-claro) 1px ;
+    padding: 15px;
+}
+
+.fa-truck {
+    color: var(--Verde);
+    font-size: 1em;
+    padding:0.5em;
+    border: solid var(--Verde) 2px;
+    border-radius: 50%;
+}
+
+section h2 {
+    text-align: center;
+}
+
+#main h3 {
+    font-size:16px;
+    color: var(--Gris-oscuro);
+}
+
+img {
+    width:100%;
+}
+
+
+#main h3 {
+    font-size:24px;
+    display: none;
+}
+
+p {
+    font-size:12px;
+}
+
+p.price {
+    font-size:18px;
+}
+
+p.discount {
+    font-size:16px;
+    color: var(--Verde);
+}

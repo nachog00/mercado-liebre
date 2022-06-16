@@ -1,0 +1,87 @@
+/* HEADER */
+
+#header {
+    background-color: var(--Amarillo);
+    margin: 0px;
+    padding: 1rem;
+}
+
+#logo {
+    max-width: 250px;
+    min-width: 150px;
+
+    width: 30vw;
+    margin: 0;
+}
+
+img.banner {
+    width: 100vw;
+}
+
+fieldset {
+    padding: 0;
+    border:none;
+    padding: 0.5rem 0 0.5rem
+}
+
+input {
+    background-color: white;
+    width: 90%;
+}
+
+.fa-magnifying-glass {
+    width: 10%;;
+    background-color: white;
+    padding:0.1em;
+    border: solid var(--Gris-oscuro) 1px;
+    border-radius: 1%;
+
+}
+
+#busqueda i{
+    display: inline;
+}
+
+.comentario-busqueda {
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+/* #logo-y-busqueda {
+    display: flex;
+    flex-direction: row;
+} */
+
+#burger-menu {
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0.5rem;
+}
+
+#burger-menu i {
+    background-color: var(--Celeste);
+    color: var(--Gris-claro);
+    padding: 0.5rem;
+    border-radius: 17%;
+}
+
+
+ul {
+    padding-left: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.site {
+    display: none;
+}
+
+.login-navbar {
+    display:none;
+}
+
+
