@@ -1,4 +1,42 @@
 
 #register fieldset {
     background-color: var(--Gris-claro);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+
+}
+
+#register fieldset div {
+    width: 80%;
+    max-width: 500px;
+    align-items: center;
+    padding: 1rem 0 1rem;
+}
+
+#register fieldset div input {
+    margin-top: 0.5rem;
+    padding: 0 1rem 0 ;
+}
+
+#register fieldset div.options {
+    display: block;
+    align-items: center;
+}
+
+#register fieldset div.options input {
+    display: block;
+    width: auto;
+}
+
+
+
+label.container span{
+
+}
+
+label.container span{
+
 }

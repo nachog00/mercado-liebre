@@ -10,7 +10,7 @@
 /*     max-width: 250px;
     min-width: 150px;
  */
-    width: 50%;
+
     margin: 0;
 }
 
@@ -120,5 +120,6 @@ span {
 a {
     text-decoration: none;
     color: black;
+    width: 50%;
 }
 

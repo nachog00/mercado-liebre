@@ -94,16 +94,49 @@
 
     <section id="register">
 
+        
+        
         <form action="post" method="post">
             <fieldset>
-                <ul>
-                    <li>
-                        <label for="name">Nombre</label>
-                        <input type="text"  name="name" id="name">
-                    </li>
-                </ul>
+                <h2>Sign in</h2>
+                <p>Completa los siguientes campos:</p>
+                    <div>
+                        <label for="nombre">Nombre</label>
+                        <input type="text"  name="nombre" id="nombre">
+                    </div>
 
-            </fieldset>
+                    <div>
+                        <label for="apellido">Apellido</label>
+                        <input type="text" name="apellido" id="apellido">
+                    </div>
+
+                    <div>
+                        <label for="fecha-nacimiento">Fecha de nacimiento</label>
+                        <input type="date" name="fecha-nacimiento" id="fecha-nacimiento">
+                    </div>
+
+                    <div>
+                        <label for="domicilio">Domicilio</label>
+                        <input type="text" name="domicilio" id="domicilio">
+                    </div>
+
+                    <div class="options">
+                        <label class="container" for="vendedor">
+                            <input type="radio" name="vendedor" id="vendedor" checked="checked">
+                            <span type="radio"></span>
+                            Vendedor
+                        </label>
+                        <label class="container">
+                            <input type="radio" name="comprador" id="comprador">
+                            <span type="radio"></span>
+                            Comprador
+                        </label>
+
+                        
+                    </div>
+
+                    
+                </fieldset>
 
         </form>
 
