@@ -1,0 +1,13 @@
+@media only screen and (min-width: 1080px) {
+
+
+    #enviar {
+        transition: all 0.2s linear;
+    }
+
+    #login > form > fieldset > div.botones > a:hover #enviar {
+        background-color: #0022AA;
+    }
+
+
+}
