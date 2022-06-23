@@ -1,27 +1,42 @@
 @media only screen and (min-width: 1080px) {
-
-    div.products article {
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    }
-
-
+    
+    
+    
     div.products article {
         max-width: 21%;
+        box-shadow: none;
+        transition: box-shadow 0.1s linear;
+    }
+    
+    div.products article:hover {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    
+    #main > section > div > article > div > h3 {
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0s, opacity 0.4s linear;
+    }
+    
+    #main > section > div > article:hover > div > h3 {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    #main > section > div > article > div > i {
+        transition: transform 0.5s linear;
+    }
+
+    #main > section > div > article > div > i:hover {
+        transform: rotateZ(-90deg);
     }
 
 
-    #main h3 {
-        display: none;
-    }
-
-    #main h3:hover {
-        display: blovk;
-    }
-
-
-
-
-
+    
+    
+    
+    
+    
 
 
 
