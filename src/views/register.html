@@ -52,7 +52,7 @@
             </div>
             <div class="comentario-busqueda">
                 <i class="fa-solid fa-hand-holding-dollar"></i>
-                <span>Comprá en cuotas y sin tarjeta de crédito</span>   
+                <span>Comprá en cuotas y sin tarjeta de crédito</span>
             </div>
         </div>
 
@@ -89,40 +89,43 @@
             </div>
         </nav>
 
-        
+
     </section>
 
     <section id="register">
 
-        
-        
+
+
         <form action="post" method="post">
             <fieldset>
-                <h2>Sign in</h2>
+                <h2>Crear cuenta</h2>
                 <p>Completa los siguientes campos:</p>
-                    <div>
-                        <label for="nombre">Nombre</label>
-                        <input type="text"  name="nombre" id="nombre">
-                    </div>
 
-                    <div>
-                        <label for="apellido">Apellido</label>
-                        <input type="text" name="apellido" id="apellido">
-                    </div>
+                <div>
+                    <input type="text" name="nombre-y-apellido" id="nombre-y-apellido" placeholder="Nombre y apellido">
+                </div>
 
-                    <div>
-                        <label for="fecha-nacimiento">Fecha de nacimiento</label>
-                        <input type="date" name="fecha-nacimiento" id="fecha-nacimiento">
-                    </div>
+                
+                <div>
+                    <input type="mail" name="e-mail" id="e-mail" placeholder="e-mail">
+                </div>
+                
+                <div>
+                    <h4>Fecha de nacimiento</h4>
+                    <input type="date" name="fecha-nacimiento" id="fecha-nacimiento" placeholder="Fecha de nacimiento">
+                </div>
 
-                    <div>
-                        <label for="domicilio">Domicilio</label>
-                        <input type="text" name="domicilio" id="domicilio">
-                    </div>
-
-                    <div class="options">
+                <div>
+                    <input type="text" name="domicilio" id="domicilio" placeholder="Domicilio">
+                </div>
+                
+                
+                <div>
+                    <h4>Perfil de usuario</h4>
+                    
+                    <div class="options" id="perfil-usuario">
                         <label class="container" for="vendedor">
-                            <input type="radio" name="vendedor" id="vendedor" checked="checked">
+                            <input type="radio" name="vendedor" id="vendedor">
                             <span type="radio"></span>
                             Vendedor
                         </label>
@@ -131,12 +134,68 @@
                             <span type="radio"></span>
                             Comprador
                         </label>
-
-                        
                     </div>
-
+                </div>
+                
+                <div class="categorias">
+                    <h4>Categorias de interés</h4>
+                    <div class="options check">
+                        <div>
+                            <input type="checkbox" name="electro">
+                            <label for="electro">Electro</label>
+                        </div>
+                        
+                        <div>
+                            <input type="checkbox" name="moda">
+                            <label for="moda">Moda</label>
+                        </div>
+                        
+                        <div>
+                            <input type="checkbox" name="Hogar">
+                            <label for="Hogar">Hogar</label>
+                        </div>
+                        
+                        <div>
+                            <input type="checkbox" name="Jugueteria">
+                            <label for="Jugueteria">Jugueteria</label>
+                        </div>
+                        
+                        <div>
+                            <input type="checkbox" name="Vida sana">
+                            <label for="Vida sana">Vida sana</label>
+                        </div>
+                    </div>
+                </div>
+                
+                <div>
+                    <label for="foto-usuario">Foto de usuario</label>
+                    <input type="file" name="foto-usuario" id="foto-usuario">
                     
-                </fieldset>
+                </div>
+                
+                <div>
+                    <input type="text" name="usuario" id="usuario" placeholder="Usuario">
+                </div>
+
+                <div>
+                    <input type="password" name="password" id="password" placeholder="contraseña">
+                </div>
+
+                <div>
+                    <input type="password" name="password-confirm" id="password-confirm" placeholder="confirmar contraseña">
+                </div>
+
+                <div class="botones">
+                    <a href="#">
+                        <input type="button" value="Borrar todo" id="borrar-todo">
+                    </a>
+                    <a href="/">
+                        <input type="button" value="Enviar" id="enviar">
+                    </a>
+                </div>
+                
+                
+            </fieldset>
 
         </form>
 
@@ -145,28 +204,30 @@
     <section id="footer">
 
         <div class="foot-cards">
-            
+
             <article>
                 <i class="fa-solid fa-credit-card"></i>
                 <h4>Pagá con tarjeta o en efectivo</h4>
-                <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es
+                <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y
+                    siempre es
                     seguro!</p>
             </article>
-    
+
             <article>
                 <i class="fa-solid fa-gift"></i>
                 <h4>Envío gratis desde $ 2.500</h4>
-                <p>Solo por estar registrado en Mercado Liebre tenés envíos gratis en miles de productos. Es un beneficio de
+                <p>Solo por estar registrado en Mercado Liebre tenés envíos gratis en miles de productos. Es un
+                    beneficio de
                     Mercado Puntos.</p>
             </article>
-    
+
             <article>
                 <i class="fa-solid fa-user-shield"></i>
                 <h4>Seguridad, de principio a fin</h4>
                 <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre,no hay nada que no puedas hacer, porque estás siempre
                     protegido</p>
             </article>
-            
+
         </div>
 
 
