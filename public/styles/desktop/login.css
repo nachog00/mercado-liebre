@@ -9,5 +9,13 @@
         background-color: #0022AA;
     }
 
+    #footer > div > article > i {
+        transition: all 0.2s linear;
+    }
+
+    #footer > div > article > i:hover {
+        color: var(--Verde);
+    }
+
 
 }
