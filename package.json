@@ -4,8 +4,8 @@
   "description": "Ejercitacion de practica de HTML y CSS para el curso FullStack de Digital House.",
   "main": "app.js",
   "scripts": {
-    "start": "node src/app.js",
-    "server": "nodemon src/app.js",
+    "start": "node app.js",
+    "server": "nodemon app.js",
     "commit": "git add . && git commit && git status && pause && git push origin master"
   },
   "author": "Nacho Geo",
