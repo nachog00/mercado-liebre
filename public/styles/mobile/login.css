@@ -1,0 +1,77 @@
+
+#login fieldset {
+    background-color: var(--Gris-claro);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+
+}
+
+#login fieldset div {
+    width: 100%;
+    max-width: 500px;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0 1rem;
+}
+
+#login fieldset div input {
+    width: 100%;
+    margin-top: 0.5rem;
+    padding: 0 1rem 0 ;
+}
+
+#login fieldset div.options {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+#login fieldset div.options label {
+    /* display: contents; */
+}
+
+#login fieldset div.options input {
+    width: 2rem;
+    height: auto;
+    justify-self: center;
+    margin: 0 1em;
+
+}
+
+
+#login fieldset div h4 {
+    margin: 0;
+    font-weight:200;
+}
+
+#login fieldset div div.options.check div {
+    padding: 0.3em 0;
+}
+
+/* #login fieldset div.categorias input {
+    width: auto;
+    height: auto;
+} */
+
+#login fieldset div.botones {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#login fieldset div.botones a {
+    width: 40%;
+}
+
+#login fieldset div.botones input {
+    background-color: var(--Azul);
+    color: white;
+    border-radius: 0.5em;
+}
+
+

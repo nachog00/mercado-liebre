@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mercado Liebre</title>
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="styles/MainStylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- icons -->
+    <link rel="icon" type="image/svg" href="/images/logo-mercado-liebre-favicon.svg" />
+    <script src="https://kit.fontawesome.com/5c00d89eed.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- indica el estado que toman los media queries, es solo para debuggear. -->
+    <div id="media-state">
+        <p class="mobile">MOBILE</p>
+        <p class="tablet">TABLET</p>
+        <p class="desktop">DESKTOP</p>
+    </div>
+
+    <section id="header">
+
+        <!-- TODO: investigar atributo srcset -->
+        <div class="busqueda-y-comentario">
+            <div id="logo-y-busqueda">
+                <a href="/">
+                    <img id="logo" src="images/logo-mercado-liebre.svg" alt="logo">
+                </a>
+                <!-- Barra de busqueda -->
+                <div id="busqueda">
+                    <form action="/" method="get">
+                        <fieldset class="busqueda">
+                            <input type="text" id="search-input" placeholder="Buscar productos, marcas ...">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+            <div class="comentario-busqueda">
+                <i class="fa-solid fa-hand-holding-dollar"></i>
+                <span>Comprá en cuotas y sin tarjeta de crédito</span>
+            </div>
+        </div>
+
+        <!-- Navegacion -->
+        <nav>
+            <ul class="site">
+                <li>Ofertas</li>
+                <li>Tiendas oficiales</li>
+                <li>Vender</li>
+                <li>Ayuda</li>
+            </ul>
+
+            <ul class="login-navbar">
+                <li>
+                    <a href="/register">
+                        <p>Creá tu cuenta</p>
+                        <i class="fa-solid fa-id-card"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="/login">
+                        <p>Ingresá</p>
+                        <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                    </a>
+                </li>
+                <li>
+                    <p>Mis compras</p>
+                    <i class="fa-solid fa-basket-shopping"></i>
+                </li>
+            </ul>
+
+            <div id="burger-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+
+
+    </section>
+
+    <section id="login">
+
+        <form action="post" method="post">
+            <fieldset>
+                <h2>Ingresar</h2>
+
+                <div>
+                    <input type="text" name="usuario" id="usuario" placeholder="Usuario">
+                </div>
+
+                <div>
+                    <input type="password" name="password" id="password" placeholder="contraseña">
+                </div>
+
+                <div class="botones">
+                    <a href="/">
+                        <input type="button" value="Enviar" id="enviar">
+                    </a>
+                </div>
+                
+                
+            </fieldset>
+
+        </form>
+
+    </section>
+
+    <section id="footer">
+
+        <div class="foot-cards">
+
+            <article>
+                <i class="fa-solid fa-credit-card"></i>
+                <h4>Pagá con tarjeta o en efectivo</h4>
+                <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y
+                    siempre es
+                    seguro!</p>
+            </article>
+
+            <article>
+                <i class="fa-solid fa-gift"></i>
+                <h4>Envío gratis desde $ 2.500</h4>
+                <p>Solo por estar registrado en Mercado Liebre tenés envíos gratis en miles de productos. Es un
+                    beneficio de
+                    Mercado Puntos.</p>
+            </article>
+
+            <article>
+                <i class="fa-solid fa-user-shield"></i>
+                <h4>Seguridad, de principio a fin</h4>
+                <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre,no hay nada que no puedas hacer, porque estás siempre
+                    protegido</p>
+            </article>
+
+        </div>
+
+
+        <article class="Copyright">
+            <h4>Copyright © 1999-2020 MercadoLiebre S.R.L.</h4>
+        </article>
+
+    </section>
+
+</body>
+
+</html>
